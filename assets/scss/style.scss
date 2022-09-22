@@ -1,16 +1,13 @@
 /*
  * %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  *
- * Template Name: Oyoxo - Heating Air-conditioning Services HTML Template   
- * Template URI: https://thememarch.com/demo/html/oyoxo/
- * Description: Oyoxo is a professional heating air conditioning services HTML template which comes with the unique and clean design. It helps you to create a beautiful heating air conditioning services HTML website. It's a fully responsive website template. It has also e-commerce support. E-commerce pages are included on this template.
- * Author: Thememarch
- * Author URI: https://thememarch.com
- * Version: 1.2
+ * Template Name: Prepara tu Conta   
+ * Author: Luis Tellez
+ * Author URI: https://luistellez.com
+ * Version: 1.0
  *
  * %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  */
-
 
 /*
 ===========================================================
@@ -66,52 +63,49 @@
 ===========================================================
 */
 
+@import "variables";
+@import "mixins";
 
-@import 'variables';
-@import 'mixins';
+@import "basic/reset";
+@import "basic/animations";
+@import "basic/typography";
+@import "basic/utilities";
 
-@import 'basic/reset';
-@import 'basic/animations';
-@import 'basic/typography';
-@import 'basic/utilities';
+@import "elements/button";
+@import "elements/titles";
+@import "elements/slider-elements";
+@import "elements/form";
+@import "elements/accordion";
+@import "elements/videobox";
+@import "elements/selectbox";
+@import "elements/pagination";
+@import "elements/tab";
 
-@import 'elements/button';
-@import 'elements/titles';
-@import 'elements/slider-elements';
-@import 'elements/form';
-@import 'elements/accordion';
-@import 'elements/videobox';
-@import 'elements/selectbox';
-@import 'elements/pagination';
-@import 'elements/tab';
+@import "sections/header";
+@import "sections/heroslider";
+@import "sections/features-services";
+@import "sections/funfact";
+@import "sections/about";
+@import "sections/appointment";
+@import "sections/product";
+@import "sections/promotion";
+@import "sections/testimonial";
+@import "sections/newsletter";
+@import "sections/financing";
+@import "sections/pricebox";
+@import "sections/tinysections";
+@import "sections/team";
+@import "sections/cta";
+@import "sections/blog";
+@import "sections/brandlogo";
+@import "sections/contact";
+@import "sections/breadcrumb";
+@import "sections/widgets";
+@import "sections/comment";
+@import "sections/shop";
+@import "sections/footer";
 
-
-@import 'sections/header';
-@import 'sections/heroslider';
-@import 'sections/features-services';
-@import 'sections/funfact';
-@import 'sections/about';
-@import 'sections/appointment';
-@import 'sections/product';
-@import 'sections/promotion';
-@import 'sections/testimonial';
-@import 'sections/newsletter';
-@import 'sections/financing';
-@import 'sections/pricebox';
-@import 'sections/tinysections';
-@import 'sections/team';
-@import 'sections/cta';
-@import 'sections/blog';
-@import 'sections/brandlogo';
-@import 'sections/contact';
-@import 'sections/breadcrumb';
-@import 'sections/widgets';
-@import 'sections/comment';
-@import 'sections/shop';
-@import 'sections/footer';
-
-
-@import 'pages/product-details';
-@import 'pages/cart';
-@import 'pages/account';
-@import 'pages/checkout';
+@import "pages/product-details";
+@import "pages/cart";
+@import "pages/account";
+@import "pages/checkout";
