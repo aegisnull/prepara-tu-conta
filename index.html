@@ -1,228 +1,1425 @@
 <!DOCTYPE html>
-<html lang="es-MX">
+<html lang="zxx">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Prepara tu Conta</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="apple-touch-icon" href="assets/images/favicon.png" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- Google Font (font-family: 'Open Sans', sans-serif;) -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700"
+      rel="stylesheet"
+    />
+    <!-- Google Font (font-family: 'PT Serif', serif;) -->
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="stylesheet" href="assets/css/custom.css" />
   </head>
+
   <body>
-    <nav class="navbar">
-      <div class="navbar__left">
-        <img class="navbar__logo" src="img/logo.png" alt="Logo" />
+    <!-- Preloader -->
+    <div class="tm-preloader">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="tm-preloader-logo">
+              <img src="assets/images/logo/logo-white.png" alt="logo" />
+            </div>
+            <span class="tm-preloader-progress"></span>
+          </div>
+        </div>
       </div>
-      <div class="navbar__right">
-        <ul class="navbar__links">
-          <li class="navbar__link">Acerca de</li>
-          <li class="navbar__link">Servicios</li>
-          <li class="navbar__link">Contacto</li>
-        </ul>
+      <button class="tm-button">Cancel Preloader</button>
+    </div>
+    <!--// Preloader -->
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <!-- Header -->
+      <div id="tm-home-area" class="tm-header">
+        <div class="tm-header-topside">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <ul class="tm-header-topside-infoleft">
+                  <li>
+                    <b><i class="ion-android-mail"></i> Email: </b
+                    ><a href="mailto:contact@example.com"
+                      >contact@example.com</a
+                    >
+                  </li>
+                  <li>
+                    <b><i class="ion-android-call"></i> Contact: </b
+                    ><a href="tel:+18009156270">1-800-915-6270</a>
+                  </li>
+                  <li>
+                    <b><i class="ion-clock"></i> Work time: </b>9:00-18:00
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <ul class="tm-header-topside-inforight">
+                  <li>
+                    <a class="hash-scroll-link" href="#tm-appointment-area"
+                      ><i class="ion-android-calendar"></i> Make an
+                      Appointment</a
+                    >
+                  </li>
+                  <li>
+                    <button class="tm-header-searchtrigger">
+                      <i class="ion-ios-search-strong"></i>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tm-header-bottomside">
+          <div class="container">
+            <div class="tm-header-bottominner">
+              <a href="index.html" class="tm-header-logo">
+                <img src="assets/images/logo/logo.png" alt="oyoxo logo" />
+              </a>
+              <nav class="tm-header-nav">
+                <ul>
+                  <li class="tm-header-nav-dropdown">
+                    <a href="#tm-home-area">Home</a>
+                    <ul>
+                      <li><a href="index.html">Homepage 1</a></li>
+                      <li><a href="index-2.html">Homepage 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#tm-about-area">About</a></li>
+                  <li><a href="#tm-services-area">Service</a></li>
+                  <li><a href="#tm-products-area">Products</a></li>
+                  <li class="tm-header-nav-dropdown">
+                    <a href="#tm-home-area">Pages</a>
+                    <ul>
+                      <li><a href="shop.html">Products</a></li>
+                      <li>
+                        <a href="shop-leftsidebar.html"
+                          >Products Left Sidebar</a
+                        >
+                      </li>
+                      <li>
+                        <a href="product-details.html">Product Details</a>
+                      </li>
+                      <li>
+                        <a href="product-details-leftsidebar.html"
+                          >Product Details Left Sidebar</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#tm-home-area">Others</a>
+                        <ul>
+                          <li><a href="cart.html">Shopping Cart</a></li>
+                          <li><a href="wishlist.html">Wishlist</a></li>
+                          <li><a href="checkout.html">Checkout</a></li>
+                          <li>
+                            <a href="login-register.html">Login & Register</a>
+                          </li>
+                          <li><a href="my-account.html">My Account</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="tm-header-nav-dropdown">
+                    <a href="#tm-blogs-area">Blog</a>
+                    <ul>
+                      <li><a href="blog.html">Blog</a></li>
+                      <li>
+                        <a href="blog-leftsidebar.html">Blog Left Sidebar</a>
+                      </li>
+                      <li><a href="blog-details.html">Blog Details</a></li>
+                      <li>
+                        <a href="blog-details-leftsidebar.html"
+                          >Blog Details Left Sidebar</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog-details-gallery.html"
+                          >Blog Details Gallery</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog-details-audio.html">Blog Details Audio</a>
+                      </li>
+                      <li>
+                        <a href="blog-details-video.html">Blog Details Video</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#tm-contact-area">Contact</a></li>
+                </ul>
+              </nav>
+              <ul class="tm-header-icons">
+                <li>
+                  <a href="login-register.html"
+                    ><i class="ion-android-contact"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="cart.html"><i class="ion-android-cart"></i></a>
+                </li>
+              </ul>
+              <div class="tm-mobilenav"></div>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-    <section class="header">
-      <div class="header__left">
-        <h1 class="header__title">¡Que tu contabilidad no sea un problema!</h1>
-        <p class="header__subtitle">
-          Somos el balance perfecto entre un software fácil de usar y el apoyo
-          de un equipo de contadores expertos que te ayudan a cumplir con el
-          SAT.
-        </p>
+      <!--// Header -->
+
+      <!-- Heroslider Area -->
+      <div class="tm-heroslider">
+        <div class="tm-heroslider-images tm-slider-dots-2">
+          <div
+            class="tm-heroslider-image"
+            data-bgimage="assets/images/heroslider/heroslider-image-1.jpg"
+          ></div>
+          <div
+            class="tm-heroslider-image"
+            data-bgimage="assets/images/heroslider/heroslider-image-2.jpg"
+          ></div>
+          <div
+            class="tm-heroslider-image"
+            data-bgimage="assets/images/heroslider/heroslider-image-3.jpg"
+          ></div>
+        </div>
+
+        <div class="tm-heroslider-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-md-10">
+                <h1>Heating and Air Conditioning Comfort Specialist</h1>
+                <p>
+                  Business plan draws on a wide range of knowledge from many
+                  different business disciplines
+                </p>
+                <a href="#tm-about-area" class="tm-button hash-scroll-link"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="header__right">
-        <img class="header__img" src="img/header.png" alt="Header" />
-      </div>
-    </section>
-    <section class="about">
-      <div class="about__left">
-        <h2 class="about__title">¿Qué es Resuelve tu Contabilidad?</h2>
-        <p class="about__subtitle">
-          Somos un equipo de contadores que ofrece un servicio de contabilidad,
-          facturación y nómina. Todo esto, con el apoyo de nuestra plataforma
-          digital, donde podrás dar seguimiento a tu presentación de
-          declaraciones, timbrar y administrar tus facturas.
-        </p>
-      </div>
-      <div class="about__right">
-        <img class="about__img" src="img/about.png" alt="About" />
-      </div>
-    </section>
-    <section class="services">
-      <h2 class="services__title">Servicios</h2>
-      <div class="services__container">
-        <article class="services__item">
-          <img
-            class="services__img"
-            src="img/services/services-1.png"
-            alt="Services"
-          />
-          <h3 class="services__title">Contabilidad</h3>
-          <p class="services__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </article>
-        <article class="services__item">
-          <img
-            class="services__img"
-            src="img/services/services-2.png"
-            alt="Services"
-          />
-          <h3 class="services__title">Facturación</h3>
-          <p class="services__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </article>
-        <article class="services__item">
-          <img
-            class="services__img"
-            src="img/services/services-3.png"
-            alt="Services"
-          />
-          <h3 class="services__title">Nómina</h3>
-          <p class="services__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </article>
-      </div>
-    </section>
-    <section class="pricing">
-      <h2 class="pricing__title">Planes</h2>
-      <div class="pricing__container">
-        <article class="pricing__item">
-          <h3 class="pricing__title">Plan 1</h3>
-          <p class="pricing__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-          <p class="pricing__price">$100</p>
-          <ul class="pricing__features">
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-          </ul>
-          <button class="pricing__btn">Comprar</button>
-        </article>
-        <article class="pricing__item">
-          <h3 class="pricing__title">Plan 2</h3>
-          <p class="pricing__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-          <p class="pricing__price">$200</p>
-          <ul class="pricing__features">
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-          </ul>
-          <button class="pricing__btn">Comprar</button>
-        </article>
-        <article class="pricing__item">
-          <h3 class="pricing__title">Plan 3</h3>
-          <p class="pricing__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-          <p class="pricing__price">$300</p>
-          <ul class="pricing__features">
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-            <li class="pricing__feature">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </li>
-          </ul>
-          <button class="pricing__btn">Comprar</button>
-        </article>
-      </div>
-    </section>
-    <section class="contact">
-      <div class="contact__container">
-        <h2 class="contact__title">¿Quieres saber más?</h2>
-        <p class="contact__subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
-        <form class="contact__form">
-          <input class="contact__input" type="text" placeholder="Nombre" />
-          <input class="contact__input" type="email" placeholder="Correo" />
-          <textarea class="contact__textarea" placeholder="Mensaje"></textarea>
-          <button class="contact__btn">Enviar</button>
+      <!--// Heeroslider Area -->
+
+      <!-- Main Content -->
+      <main class="page-content">
+        <!-- Features -->
+        <div id="tm-features-area" class="tm-feature-area tm-section bg-grey">
+          <div class="container">
+            <div class="row mt-30-reverse justify-content-center">
+              <div class="col-lg-4 col-md-6 col-12 mt-30">
+                <div class="tm-feature">
+                  <div class="tm-feature-icon">
+                    <img
+                      src="assets/images/icons/icon-feature-1.png"
+                      alt="feature icon"
+                    />
+                  </div>
+                  <div class="tm-feature-content">
+                    <h5>Instllation</h5>
+                    <p>Nisi odio soluta rerum officiis perspiciatis cumque.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-30">
+                <div class="tm-feature">
+                  <div class="tm-feature-icon">
+                    <img
+                      src="assets/images/icons/icon-feature-2.png"
+                      alt="feature icon"
+                    />
+                  </div>
+                  <div class="tm-feature-content">
+                    <h5>Repairs</h5>
+                    <p>
+                      Autem deserunt ab earum ducimus consectetur similique ex.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-30">
+                <div class="tm-feature">
+                  <div class="tm-feature-icon">
+                    <img
+                      src="assets/images/icons/icon-feature-3.png"
+                      alt="feature icon"
+                    />
+                  </div>
+                  <div class="tm-feature-content">
+                    <h5>Maintenance</h5>
+                    <p>
+                      Quo corrupti pariatur dolor qui quia consectetur eligendi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Features -->
+
+        <!-- About -->
+        <div
+          id="tm-about-area"
+          class="tm-about-area tm-section tm-padding-section bg-white"
+        >
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="tm-videobox" data-black-overlay="3">
+                  <img
+                    src="assets/images/others/videobox-image-1.jpg"
+                    alt="videobox image"
+                  />
+                  <a
+                    href="https://www.youtube.com/watch?v=mHUOCxVT5ro"
+                    data-fancybox="video"
+                  >
+                    <img
+                      src="assets/images/icons/icon-video-play.png"
+                      alt="video play"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="tm-about-content">
+                  <h2>About our company you can trust</h2>
+                  <h6>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elitsed
+                    do eiusmod ncididunt ametfh consectetur.
+                  </h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit sed
+                    do eiusmod ncididunt ametfh consectetur dolore magna aliqua.
+                    Ut enim ad minim veniam dolor sitame magnaelit ate
+                    consectetur adipisicing. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit sed do eiusmod.
+                  </p>
+                  <ul class="stylish-list-color">
+                    <li>
+                      <i class="ion-android-checkmark-circle"></i> Atque
+                      expedita nobis voluptatem quis.
+                    </li>
+                    <li>
+                      <i class="ion-android-checkmark-circle"></i> Voluptas
+                      nihil quia ut.
+                    </li>
+                  </ul>
+                  <div class="tm-about-buttons tm-buttongroup">
+                    <a href="#" class="tm-button">Read More</a>
+                    <a href="tel:+18009156270" class="tm-callbutton">
+                      <img
+                        src="assets/images/icons/icon-callbutton-phone.png"
+                        alt="call icon"
+                      />
+                      <h5>24/7 Customer Care</h5>
+                      <h4>1-800-915-6270</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-center tm-padding-section-top">
+              <div class="col-lg-6">
+                <div class="tm-whyus-content">
+                  <h2>Three reasons why we're trusted</h2>
+                  <div class="tm-whyus-blocks">
+                    <div class="tm-whyus-block">
+                      <h5><span>1</span> Commitment to Reliable Services</h5>
+                      <p>
+                        Sapiente sunt explicabo et doloribus minima explicabo.
+                        Harum maiores impedit qui doloribus et qui. Quo ratione
+                        quos ratione.
+                      </p>
+                    </div>
+                    <div class="tm-whyus-block">
+                      <h5><span>2</span> Commitment to Safety</h5>
+                      <p>
+                        Quia qui qui et est culpa. Natus ut suscipit fugiat a
+                        nesciunt tempora qui. Vel eum quam in illum est.
+                        Consectetur sit dolores.
+                      </p>
+                    </div>
+                    <div class="tm-whyus-block">
+                      <h5><span>3</span> Commitment to Excellence</h5>
+                      <p>
+                        Quidem repellat fugiat non omnis voluptatem veritatis.
+                        Nobis provident corrupti repudiandae inventore illo
+                        commodi.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="tm-whyus-image">
+                  <img src="assets/images/others/whyus-image.jpg" alt="image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// About -->
+
+        <!-- Funfact -->
+        <div
+          id="tm-funfact-area"
+          class="tm-funfact-area tm-section tm-padding-section bg-grey"
+        >
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-5 col-12">
+                <h2 class="tm-funfact-heading">
+                  <small>More than</small><span>30 yeras</span> of experience
+                </h2>
+              </div>
+              <div class="col-lg-7 col-12">
+                <div class="row mt-30-reverse justify-content-center">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 mt-30">
+                    <div class="tm-funfact">
+                      <div class="tm-funfact-icon">
+                        <img
+                          src="assets/images/icons/icon-funfact-1.png"
+                          alt="funfact icon"
+                        />
+                      </div>
+                      <div class="tm-funfact-content">
+                        <span class="tm-funfact-number">
+                          <span class="odometer" data-count-to="1299"></span>
+                        </span>
+                        <h6>Projects Completed</h6>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 mt-30">
+                    <div class="tm-funfact">
+                      <div class="tm-funfact-icon">
+                        <img
+                          src="assets/images/icons/icon-funfact-2.png"
+                          alt="funfact icon"
+                        />
+                      </div>
+                      <div class="tm-funfact-content">
+                        <span class="tm-funfact-number">
+                          <span class="odometer" data-count-to="2999"></span>
+                        </span>
+                        <h6>Expert Workers</h6>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-12 mt-30">
+                    <div class="tm-funfact">
+                      <div class="tm-funfact-icon">
+                        <img
+                          src="assets/images/icons/icon-funfact-3.png"
+                          alt="funfact icon"
+                        />
+                      </div>
+                      <div class="tm-funfact-content">
+                        <span class="tm-funfact-number">
+                          <span class="odometer" data-count-to="100"></span>%
+                        </span>
+                        <h6>Service Warrenty</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Funfact -->
+
+        <!-- Services -->
+        <div
+          id="tm-services-area"
+          class="tm-services-area tm-section tm-padding-section bg-white"
+        >
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-6 col-lg-8">
+                <div class="tm-sectiontitle text-center">
+                  <h2>Our Services</h2>
+                  <span class="tm-sectiontitle-divider">
+                    <img
+                      src="assets/images/icons/icon-section-title-divider.png"
+                      alt="divider icon"
+                    />
+                  </span>
+                  <p>
+                    Lorem ipsum dolor sittem ametamngcing elit, per sed do
+                    eiusmoad teimpor sittem elit inuning ut sed sittem do
+                    eiusmod.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-30-reverse">
+              <div class="col-lg-4 col-md-6 col-12 mt-30">
+                <div class="tm-service text-center tm-revealblock">
+                  <div class="tm-service-icon">
+                    <img
+                      src="assets/images/icons/icon-service-1.png"
+                      alt="feature icon"
+                    />
+                  </div>
+                  <div class="tm-service-content">
+                    <h5>Plumbing</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aenean cursus tincidunt ultrices utquis blandit dolor.
+                    </p>
+                    <a href="#" class="tm-button tm-button-white">More Info</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-30">
+                <div class="tm-service text-center tm-revealblock">
+                  <div class="tm-service-icon">
+                    <img
+                      src="assets/images/icons/icon-service-2.png"
+                      alt="feature icon"
+                    />
+                  </div>
+                  <div class="tm-service-content">
+                    <h5>Duct Cleaning</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aenean cursus tincidunt ultrices utquis blandit dolor.
+                    </p>
+                    <a href="#" class="tm-button tm-button-white">More Info</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-30">
+                <div class="tm-service text-center tm-revealblock">
+                  <div class="tm-service-icon">
+                    <img
+                      src="assets/images/icons/icon-service-3.png"
+                      alt="feature icon"
+                    />
+                  </div>
+                  <div class="tm-service-content">
+                    <h5>Quite Operation</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aenean cursus tincidunt ultrices utquis blandit dolor.
+                    </p>
+                    <a href="#" class="tm-button tm-button-white">More Info</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-30">
+                <div class="tm-service text-center tm-revealblock">
+                  <div class="tm-service-icon">
+                    <img
+                      src="assets/images/icons/icon-service-4.png"
+                      alt="feature icon"
+                    />
+                  </div>
+                  <div class="tm-service-content">
+                    <h5>Indoor Air Quality</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aenean cursus tincidunt ultrices utquis blandit dolor.
+                    </p>
+                    <a href="#" class="tm-button tm-button-white">More Info</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-30">
+                <div class="tm-service text-center tm-revealblock">
+                  <div class="tm-service-icon">
+                    <img
+                      src="assets/images/icons/icon-service-5.png"
+                      alt="feature icon"
+                    />
+                  </div>
+                  <div class="tm-service-content">
+                    <h5>Heating and Cooling</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aenean cursus tincidunt ultrices utquis blandit dolor.
+                    </p>
+                    <a href="#" class="tm-button tm-button-white">More Info</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12 mt-30">
+                <div class="tm-service text-center tm-revealblock">
+                  <div class="tm-service-icon">
+                    <img
+                      src="assets/images/icons/icon-service-6.png"
+                      alt="feature icon"
+                    />
+                  </div>
+                  <div class="tm-service-content">
+                    <h5>Gas Furnaces</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aenean cursus tincidunt ultrices utquis blandit dolor.
+                    </p>
+                    <a href="#" class="tm-button tm-button-white">More Info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Services -->
+
+        <!-- Appointment -->
+        <div
+          id="tm-appointment-area"
+          class="tm-appointment-area tm-section tm-padding-section bg-grey"
+        >
+          <div
+            class="tm-appointment-bgimage"
+            data-bgimage="assets/images/others/appointment-image-bg.jpg"
+          ></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-6 col-md-8 col-sm-8 col-10 align-self-end">
+                <div class="tm-appointment-image">
+                  <img
+                    src="assets/images/others/appointment-image.png"
+                    alt="appointment-image"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="tm-appointment-box">
+                  <h2>Get an Appointment</h2>
+                  <p>
+                    One of our experts will get back to you soon and answer any
+                    questions you may have.
+                  </p>
+                  <form
+                    action="assets/php/appointment.php"
+                    id="tm-appointment-form"
+                    class="tm-appointment-form tm-form tm-form-whitebox"
+                    method="post"
+                  >
+                    <div class="tm-form-inner">
+                      <div class="tm-form-field tm-form-fieldhalf">
+                        <input type="text" placeholder="Name" name="name" />
+                      </div>
+                      <div class="tm-form-field tm-form-fieldhalf">
+                        <input
+                          type="text"
+                          placeholder="Phone Number"
+                          name="phone"
+                        />
+                      </div>
+                      <div class="tm-form-field tm-form-fieldhalf">
+                        <input
+                          type="text"
+                          placeholder="Address"
+                          name="address"
+                        />
+                      </div>
+                      <div class="tm-form-field tm-form-fieldhalf">
+                        <input
+                          type="text"
+                          placeholder="Date"
+                          data-toggle="datepicker"
+                          name="date"
+                        />
+                      </div>
+                      <div class="tm-form-field">
+                        <select name="service">
+                          <option value="0">Select Service</option>
+                          <option value="Plumbing">Plumbing</option>
+                          <option value="Duct Cleaning">Duct Cleaning</option>
+                          <option value="Quite Operation">
+                            Quite Operation
+                          </option>
+                          <option value="Indoor Air Quality">
+                            Indoor Air Quality
+                          </option>
+                          <option value="Heating and Cooling">
+                            Heating and Cooling
+                          </option>
+                          <option value="Gas Furnaces">Gas Furnaces</option>
+                        </select>
+                      </div>
+                      <div class="tm-form-field">
+                        <textarea
+                          cols="30"
+                          rows="5"
+                          placeholder="Message"
+                          name="message"
+                        ></textarea>
+                      </div>
+                      <div class="tm-form-field">
+                        <button type="submit" class="tm-button">
+                          Submit Now
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                  <p class="appointment-messages"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Appointment -->
+
+        <!-- Testimonial Area -->
+        <div
+          id="tm-testimonial-area"
+          class="tm-testimonial-area tm-section tm-padding-section bg-white"
+        >
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-6 col-lg-8">
+                <div class="tm-sectiontitle text-center">
+                  <h2>Customer Testimonials</h2>
+                  <span class="tm-sectiontitle-divider">
+                    <img
+                      src="assets/images/icons/icon-section-title-divider.png"
+                      alt="divider icon"
+                    />
+                  </span>
+                  <p>
+                    Lorem ipsum dolor sittem ametamngcing elit, per sed do
+                    eiusmoad teimpor sittem elit inuning ut sed sittem do
+                    eiusmod.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-8 col-md-10">
+                <div class="tm-testimonial-slider tm-slider-arrows">
+                  <div class="tm-testimonial text-center">
+                    <span class="tm-testimonial-quoteicon">
+                      <img
+                        src="assets/images/icons/icon-testimonial-quote.png"
+                        alt="quote icon"
+                      />
+                    </span>
+                    <p>
+                      “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aenean cursus tincidunt ultrices. Ut quis blandit dolor.
+                      Ut laoreet sagittis arcueu tristique. Vestibulum ante
+                      ipsum primis in faucibus.”
+                    </p>
+                    <div class="tm-testimonial-author">
+                      <h6>Jordan Durant</h6>
+                      <p>Printer Operator</p>
+                    </div>
+                  </div>
+                  <div class="tm-testimonial text-center">
+                    <span class="tm-testimonial-quoteicon">
+                      <img
+                        src="assets/images/icons/icon-testimonial-quote.png"
+                        alt="quote icon"
+                      />
+                    </span>
+                    <p>
+                      “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aenean cursus tincidunt ultrices. Ut quis blandit dolor.
+                      Ut laoreet sagittis arcueu tristique. Vestibulum ante
+                      ipsum primis in faucibus.”
+                    </p>
+                    <div class="tm-testimonial-author">
+                      <h6>Jordan Durant</h6>
+                      <p>Printer Operator</p>
+                    </div>
+                  </div>
+                  <div class="tm-testimonial text-center">
+                    <span class="tm-testimonial-quoteicon">
+                      <img
+                        src="assets/images/icons/icon-testimonial-quote.png"
+                        alt="quote icon"
+                      />
+                    </span>
+                    <p>
+                      “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Aenean cursus tincidunt ultrices. Ut quis blandit dolor.
+                      Ut laoreet sagittis arcueu tristique. Vestibulum ante
+                      ipsum primis in faucibus.”
+                    </p>
+                    <div class="tm-testimonial-author">
+                      <h6>Jordan Durant</h6>
+                      <p>Printer Operator</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Testimonial Area -->
+
+        <!-- Pricing Plan -->
+        <div
+          id="tm-pricing-area"
+          class="tm-pricing-plan tm-section tm-padding-section bg-white"
+        >
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-6 col-lg-8">
+                <div class="tm-sectiontitle text-center">
+                  <h2>Maintenance Pricing Plans</h2>
+                  <span class="tm-sectiontitle-divider">
+                    <img
+                      src="assets/images/icons/icon-section-title-divider.png"
+                      alt="divider icon"
+                    />
+                  </span>
+                  <p>
+                    Lorem ipsum dolor sittem ametamngcing elit, per sed do
+                    eiusmoad teimpor sittem elit inuning ut sed sittem do
+                    eiusmod.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-30-reverse justify-content-center">
+              <!-- Single Pricebox -->
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-30">
+                <div class="tm-pricebox text-center tm-revealblock">
+                  <h5 class="tm-pricebox-title">Standard</h5>
+                  <div class="tm-pricebox-price">
+                    <h2>$129</h2>
+                    <p>Per Year</p>
+                  </div>
+                  <ul>
+                    <li>Yearly Maintenance</li>
+                    <li>Automatic Service Reminders</li>
+                    <li>Cleaning All Parts</li>
+                  </ul>
+                  <a href="#" class="tm-button tm-button-white">Book Now</a>
+                </div>
+              </div>
+              <!--// Single Pricebox -->
+
+              <!-- Single Pricebox -->
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-30">
+                <div class="tm-pricebox text-center tm-revealblock is-active">
+                  <h5 class="tm-pricebox-title">Basic</h5>
+                  <div class="tm-pricebox-price">
+                    <h2>$159</h2>
+                    <p>Per Year</p>
+                  </div>
+                  <ul>
+                    <li>Yearly Maintenance</li>
+                    <li>Automatic Service Reminders</li>
+                    <li>Cleaning All Parts</li>
+                  </ul>
+                  <a href="#" class="tm-button tm-button-white">Book Now</a>
+                </div>
+              </div>
+              <!--// Single Pricebox -->
+
+              <!-- Single Pricebox -->
+              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-30">
+                <div class="tm-pricebox text-center tm-revealblock">
+                  <h5 class="tm-pricebox-title">Deluxe</h5>
+                  <div class="tm-pricebox-price">
+                    <h2>$199</h2>
+                    <p>Per Year</p>
+                  </div>
+                  <ul>
+                    <li>Yearly Maintenance</li>
+                    <li>Automatic Service Reminders</li>
+                    <li>Cleaning All Parts</li>
+                  </ul>
+                  <a href="#" class="tm-button tm-button-white">Book Now</a>
+                </div>
+              </div>
+              <!--// Single Pricebox -->
+            </div>
+          </div>
+        </div>
+        <!--// Pricing Plan -->
+
+        <!-- Faq Area -->
+        <div
+          id="tm-faq-area"
+          class="tm-question-area tm-section tm-padding-section bg-grey"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="tm-question-left tm-revealblock">
+                  <div class="tm-faq-images tm-slider-dots tm-revealblock">
+                    <img
+                      src="assets/images/others/about-image-1.jpg"
+                      alt="about image"
+                    />
+                    <img
+                      src="assets/images/others/about-image-2.jpg"
+                      alt="about image"
+                    />
+                    <img
+                      src="assets/images/others/about-image-3.jpg"
+                      alt="about image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="tm-question-right">
+                  <h2>Frequently Asked Questions</h2>
+
+                  <!-- Accordion -->
+                  <div id="tm-accordion" class="tm-accordion">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn btn-link"
+                            data-toggle="collapse"
+                            data-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne"
+                          >
+                            Why should I have maintenance done?
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div
+                        id="collapseOne"
+                        class="collapse show"
+                        aria-labelledby="headingOne"
+                        data-parent="#tm-accordion"
+                      >
+                        <div class="card-body">
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the when
+                            an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo"
+                          >
+                            What kind of charges should I expect?
+                          </button>
+                        </h5>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="collapse"
+                        aria-labelledby="headingTwo"
+                        data-parent="#tm-accordion"
+                      >
+                        <div class="card-body">
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the when
+                            an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree"
+                          >
+                            When should I set a maintenance schedule?
+                          </button>
+                        </h5>
+                      </div>
+                      <div
+                        id="collapseThree"
+                        class="collapse"
+                        aria-labelledby="headingThree"
+                        data-parent="#tm-accordion"
+                      >
+                        <div class="card-body">
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the when
+                            an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseFour"
+                            aria-expanded="false"
+                            aria-controls="collapseFour"
+                          >
+                            How does repairing equipment help preserve the
+                            environment?
+                          </button>
+                        </h5>
+                      </div>
+                      <div
+                        id="collapseFour"
+                        class="collapse"
+                        aria-labelledby="headingFour"
+                        data-parent="#tm-accordion"
+                      >
+                        <div class="card-body">
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the when
+                            an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--// Accordion -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Faq Area -->
+
+        <!-- Call To Action -->
+        <div
+          id="tm-calltoaction-area-2"
+          class="tm-cta-2-area tm-section tm-padding-section bg-theme"
+        >
+          <div class="container">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-8">
+                <div class="tm-cta tm-cta-2 text-center">
+                  <h2>Employment Opportunities</h2>
+                  <h5>
+                    HVAC technician - Some technicians will be appointed for out
+                    company. Please send your resume to:
+                  </h5>
+                  <span class="mail-btn"
+                    ><a href="mailto:contact@oyoxo.com"
+                      >contact@oyoxo.com</a
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Call To Action -->
+
+        <!-- Contact Area -->
+          <div
+            id="contact-form-area"
+            class="tm-contact-bottom tm-padding-section-top"
+          >
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10">
+                  <div class="tm-contact-form text-center">
+                    <h2>Send Your Message Us</h2>
+                    <form
+                      id="tm-contactform"
+                      action="assets/php/mailer.php"
+                      class="tm-contact-forminner tm-form"
+                      method="POST"
+                    >
+                      <div class="row justify-content-center tm-form-inner">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <div class="tm-form-field">
+                            <input type="text" placeholder="Name" name="name" />
+                          </div>
+                          <div class="tm-form-field">
+                            <input
+                              type="email"
+                              placeholder="Email"
+                              name="email"
+                            />
+                          </div>
+                          <div class="tm-form-field">
+                            <input
+                              type="text"
+                              placeholder="Phone Number"
+                              name="phone"
+                            />
+                          </div>
+                          <div class="tm-form-field">
+                            <input
+                              type="text"
+                              placeholder="Subject"
+                              name="subject"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <div class="tm-form-field">
+                            <textarea
+                              cols="30"
+                              rows="5"
+                              placeholder="Message"
+                              name="message"
+                            ></textarea>
+                          </div>
+                          <div class="tm-form-field">
+                            <button
+                              type="submit"
+                              class="tm-button tm-button-block"
+                            >
+                              Submit Now
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <p class="form-messages"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Contact Area -->
+      </main>
+      <!--// Main Content -->
+
+      <!-- Footer -->
+      <footer class="tm-footer">
+        <!-- Footer Top Area -->
+        <div
+          class="tm-footer-topside tm-padding-section bg-darklight"
+          data-bgimage="assets/images/bg/footer-bg.png"
+        >
+          <div class="container">
+            <div class="widgets widgets-footer row">
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="single-widget widget-info">
+                  <a class="widget-info-logo" href="index.html"
+                    ><img
+                      src="assets/images/logo/logo-white.png"
+                      alt="white logo"
+                  /></a>
+                  <p>
+                    Lorem ipsum dolor sit amet, consect adipisicing elit, sed do
+                    eiusmod tempor inci-didunt. It is a long established fact
+                    that a reader distracted.
+                  </p>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="ion-social-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="ion-social-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="ion-social-instagram-outline"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="ion-social-pinterest-outline"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="single-widget widget-hours">
+                  <h4 class="widget-title">Opening Hours</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consect adipisicing elit, sed do
+                    eiusmod tempor inci-didunt.
+                  </p>
+                  <ul>
+                    <li><span>Mon - Tue</span>: 9.00 AM - 18.00 PM</li>
+                    <li><span>Wed - Fri</span>: 8.00 AM - 17.00 PM</li>
+                    <li><span>Saturday</span>: 9.00 PM - 15.00 PM</li>
+                    <li><span>Sunday</span>: Closed</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Footer Top Area -->
+
+        <!-- Footer Bottom Area -->
+        <div class="tm-footer-bottomside">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-7">
+                <p class="tm-footer-copyright">
+                  &copy; 2019. Designed by
+                  <a href="https://thememarch.com/">ThemeMarch</a>
+                </p>
+              </div>
+              <div class="col-md-5">
+                <div class="tm-footer-paymentmethod">
+                  <img
+                    src="assets/images/icons/payment-methods.png"
+                    alt="payment methods"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Footer Bottom Area -->
+      </footer>
+      <!--// Footer -->
+
+      <!-- Search Form -->
+      <div class="tm-searchform">
+        <button class="tm-searchform-close">
+          <i class="ion-android-close"></i>
+        </button>
+        <form action="#">
+          <input type="text" placeholder="Search keyword..." />
+          <button type="submit"><i class="ion-android-search"></i></button>
         </form>
       </div>
-    </section>
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__logo">
-          <img src="img/logo.png" alt="Logo" />
-        </div>
-        <div class="footer__contact">
-          <h3 class="footer__title">Contacto</h3>
-          <p class="footer__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-          <ul class="footer__list">
-            <li class="footer__item">
-              <i class="footer__icon fas fa-map-marker-alt"></i>
-              <span class="footer__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </span>
-            </li>
-            <li class="footer__item">
-              <i class="footer__icon fas fa-phone"></i>
-              <span class="footer__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </span>
-            </li>
-            <li class="footer__item">
-              <i class="footer__icon fas fa-envelope"></i>
-              <span class="footer__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </span>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__social">
-          <h3 class="footer__title">Síguenos</h3>
-          <ul class="footer__list">
-            <li class="footer__item">
-              <a href="#" class="footer__link">
-                <i class="footer__icon fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="footer__item">
-              <a href="#" class="footer__link">
-                <i class="footer__icon fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="footer__item">
-              <a href="#" class="footer__link">
-                <i class="footer__icon fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
+      <!--// Search Form -->
+
+      <!-- Product Quickview -->
+      <div class="tm-product-quickview" id="tm-product-quickview">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-9 col-lg-10 col-12">
+              <div class="tm-product-quickview-inner">
+                <!-- Product Details -->
+                <div class="tm-prodetails">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-10 col-12">
+                      <!-- Product Details Images -->
+                      <div class="tm-prodetails-images">
+                        <div class="tm-prodetails-largeimages">
+                          <div class="tm-prodetails-largeimage">
+                            <img
+                              src="assets/images/products/product-image-1.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                          <div class="tm-prodetails-largeimage">
+                            <img
+                              src="assets/images/products/product-image-2.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                          <div class="tm-prodetails-largeimage">
+                            <img
+                              src="assets/images/products/product-image-3.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                          <div class="tm-prodetails-largeimage">
+                            <img
+                              src="assets/images/products/product-image-4.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                          <div class="tm-prodetails-largeimage">
+                            <img
+                              src="assets/images/products/product-image-2.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                          <div class="tm-prodetails-largeimage">
+                            <img
+                              src="assets/images/products/product-image-3.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                        </div>
+                        <div class="tm-prodetails-thumbnails">
+                          <div class="tm-prodetails-thumbnail">
+                            <img
+                              src="assets/images/products/thumbnail/product-image-1.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                          <div class="tm-prodetails-thumbnail">
+                            <img
+                              src="assets/images/products/thumbnail/product-image-2.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                          <div class="tm-prodetails-thumbnail">
+                            <img
+                              src="assets/images/products/thumbnail/product-image-3.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                          <div class="tm-prodetails-thumbnail">
+                            <img
+                              src="assets/images/products/thumbnail/product-image-4.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                          <div class="tm-prodetails-thumbnail">
+                            <img
+                              src="assets/images/products/thumbnail/product-image-2.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                          <div class="tm-prodetails-thumbnail">
+                            <img
+                              src="assets/images/products/thumbnail/product-image-3.jpg"
+                              alt="product image"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <!--// Product Details Images -->
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                      <div class="tm-prodetails-content">
+                        <h3 class="tm-prodetails-title">
+                          Industry air ventilation
+                        </h3>
+                        <div class="tm-ratingbox">
+                          <span class="is-active"
+                            ><i class="ion-ios-star"></i
+                          ></span>
+                          <span class="is-active"
+                            ><i class="ion-ios-star"></i
+                          ></span>
+                          <span class="is-active"
+                            ><i class="ion-ios-star"></i
+                          ></span>
+                          <span class="is-active"
+                            ><i class="ion-ios-star"></i
+                          ></span>
+                          <span class="is-active"
+                            ><i class="ion-ios-star"></i
+                          ></span>
+                        </div>
+                        <p class="tm-prodetails-availability">
+                          Availalbe: <span>In Stock</span>
+                        </p>
+                        <div class="tm-prodetails-price">
+                          <span><del>$75.99</del> $59.99</span>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Quisque mi dolor, malesuada id metus a, mattis
+                          eleifend elit. Nullam pharetra consequat ex in
+                          dapibus. Vestibulum ante.
+                        </p>
+                        <div class="tm-prodetails-quantitycart">
+                          <div class="tm-quantitybox">
+                            <input type="text" value="1" />
+                          </div>
+                          <a href="#" class="tm-button tm-button-dark"
+                            >Add To Cart<b></b
+                          ></a>
+                        </div>
+
+                        <div class="tm-prodetails-categories">
+                          <h6>Categories :</h6>
+                          <ul>
+                            <li><a href="shop.html">Repair</a></li>
+                            <li><a href="shop.html">Tools</a></li>
+                          </ul>
+                        </div>
+
+                        <div class="tm-prodetails-tags">
+                          <h6>Tags :</h6>
+                          <ul>
+                            <li><a href="shop.html">Electronic</a></li>
+                            <li><a href="shop.html">Repair Tools</a></li>
+                            <li><a href="shop.html">Best</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="tm-prodetails-share">
+                        <h6>Share :</h6>
+                        <ul>
+                          <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-instagram-outline"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><i class="ion-social-pinterest-outline"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--// Product Details -->
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
+      <!--// Product Quickview -->
+
+      <button id="back-top-top"><i class="ion-ios-arrow-thin-up"></i></button>
+    </div>
+    <!--// Wrapper -->
+
+    <!-- Js Files -->
+    <script src="assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!--// Js Files -->
   </body>
 </html>
