@@ -712,22 +712,22 @@ h6,
 }
 
 ::-moz-selection {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
 }
 
 ::-ms-selection {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
 }
 
 ::-o-selection {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
 }
 
 ::selection {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
 }
 
@@ -802,7 +802,7 @@ select:active,
 textarea:focus,
 textarea:active {
   outline: none;
-  border-color: #3464e0;
+  border-color: #304945;
 }
 
 input,
@@ -833,7 +833,7 @@ textarea {
 }
 
 blockquote {
-  border-left: 5px solid #3464e0;
+  border-left: 5px solid #304945;
   font-size: 18px;
   line-height: 27px;
   padding: 40px;
@@ -869,11 +869,11 @@ blockquote footer {
 }
 
 blockquote footer a {
-  color: #3464e0;
+  color: #304945;
 }
 
 blockquote footer a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 @media only screen and (max-width: 767px) {
@@ -929,7 +929,7 @@ blockquote footer a:hover {
 }
 
 .stylish-list-color li i {
-  color: #3464e0;
+  color: #304945;
 }
 
 /* Checkbox & Radio Styles */
@@ -974,19 +974,19 @@ input[type="radio"] ~ label:before {
 
 input[type="checkbox"]:checked ~ label,
 input[type="radio"]:checked ~ label {
-  color: #3464e0;
+  color: #304945;
 }
 
 input[type="checkbox"]:checked ~ label a,
 input[type="radio"]:checked ~ label a {
-  color: #3464e0;
+  color: #304945;
 }
 
 input[type="checkbox"]:checked ~ label:before,
 input[type="radio"]:checked ~ label:before {
   content: "\f122";
-  color: #3464e0;
-  border-color: #3464e0;
+  color: #304945;
+  border-color: #304945;
 }
 
 input[type="radio"] ~ label::before {
@@ -1006,8 +1006,8 @@ input[type="radio"] ~ label::before {
 
 input[type="radio"]:checked ~ label::before {
   content: "";
-  color: #3464e0;
-  border-color: #3464e0;
+  color: #304945;
+  border-color: #304945;
 }
 
 /**
@@ -1054,7 +1054,7 @@ input[type="radio"]:checked ~ label::before {
 
 /* Define Colors */
 .color-theme {
-  color: #3464e0;
+  color: #304945;
 }
 
 .color-secondary {
@@ -1079,7 +1079,7 @@ input[type="radio"]:checked ~ label::before {
 
 /* Background Color */
 .bg-theme {
-  background: #3464e0;
+  background: #304945;
 }
 
 .bg-secondary {
@@ -1253,11 +1253,11 @@ input[type="radio"]:checked ~ label::before {
 }
 
 [data-overlay]:before {
-  background-color: #3464e0;
+  background-color: #304945;
 }
 
 [data-secondary-overlay]:before {
-  background-color: #3464e0;
+  background-color: #304945;
 }
 
 [data-black-overlay]:before {
@@ -1578,12 +1578,12 @@ input[type="radio"]:checked ~ label::before {
   width: 45px;
   line-height: 43px;
   text-align: center;
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
   font-size: 20px;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  border: 1px solid #3464e0;
+  border: 1px solid #304945;
   -webkit-animation: slideInRight 0.4s ease-in-out 1 both;
   animation: slideInRight 0.4s ease-in-out 1 both;
   z-index: 1000 !important;
@@ -1773,7 +1773,7 @@ input[type="radio"]:checked ~ label::before {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #3464e0;
+  background: #304945;
   -webkit-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;
@@ -1950,7 +1950,7 @@ input[type="radio"]:checked ~ label::before {
 }
 
 .tm-revealblock::before {
-  background: #3464e0;
+  background: #304945;
   -webkit-transition: all 0.4s ease-in-out 0.4s;
   -o-transition: all 0.4s ease-in-out 0.4s;
   transition: all 0.4s ease-in-out 0.4s;
@@ -1980,7 +1980,7 @@ button.tm-button {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 1px;
-  background: #3464e0;
+  background: #304945;
   height: 50px;
   line-height: 48px;
   padding: 0 40px;
@@ -1988,7 +1988,7 @@ button.tm-button {
   overflow: hidden;
   position: relative;
   color: #ffffff;
-  border: 1px solid #3464e0;
+  border: 1px solid #304945;
   z-index: 1;
   vertical-align: middle;
   -webkit-border-radius: 3px;
@@ -2137,7 +2137,7 @@ button.tm-readmore i {
 .tm-readmore:hover,
 a.tm-readmore:hover,
 button.tm-readmore:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-readmore:hover i,
@@ -2146,7 +2146,7 @@ button.tm-readmore:hover i {
   margin-left: 5px;
   visibility: visible;
   opacity: 1;
-  color: #3464e0;
+  color: #304945;
 }
 
 /* Video Button */
@@ -2211,7 +2211,7 @@ button.tm-videobutton span {
   width: 70px;
   line-height: 1;
   text-align: center;
-  background: #3464e0;
+  background: #304945;
   -webkit-border-radius: 999px;
   border-radius: 999px;
   color: #ffffff;
@@ -2230,7 +2230,7 @@ button.tm-videobutton span i {
 .tm-videobutton:hover span,
 a.tm-videobutton:hover span,
 button.tm-videobutton:hover span {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
 }
 
@@ -2251,7 +2251,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-callbutton h4 {
-  color: #3464e0;
+  color: #304945;
   display: block;
   line-height: 1;
   margin-bottom: 0;
@@ -2389,12 +2389,12 @@ button.tm-videobutton:hover span {
 
 .tm-slider-dots .slick-dots li:hover,
 .tm-slider-dots-2 .slick-dots li:hover {
-  background: #3464e0;
+  background: #304945;
 }
 
 .tm-slider-dots .slick-dots li.slick-active,
 .tm-slider-dots-2 .slick-dots li.slick-active {
-  background: #3464e0;
+  background: #304945;
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
@@ -2476,11 +2476,11 @@ button.tm-videobutton:hover span {
 
 .tm-slider-dots-2 .slick-dots li:hover {
   background: transparent;
-  border-color: #3464e0;
+  border-color: #304945;
 }
 
 .tm-slider-dots-2 .slick-dots li:hover::before {
-  background: #3464e0;
+  background: #304945;
 }
 
 .tm-slider-dots-2 .slick-dots li.slick-active {
@@ -2488,14 +2488,14 @@ button.tm-videobutton:hover span {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  border-color: #3464e0;
+  border-color: #304945;
 }
 
 .tm-slider-dots-2 .slick-dots li.slick-active::before {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  background: #3464e0;
+  background: #304945;
 }
 
 .tm-slider-arrows {
@@ -2531,8 +2531,8 @@ button.tm-videobutton:hover span {
 
 .tm-slider-arrows-prev:hover,
 .tm-slider-arrows-next:hover {
-  color: #3464e0;
-  border-color: #3464e0;
+  color: #304945;
+  border-color: #304945;
 }
 
 .tm-slider-arrows-prev {
@@ -2640,7 +2640,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-form-field a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-form-fieldhalf {
@@ -2793,7 +2793,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-accordion .card-header button:not(.collapsed) {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
 }
 
@@ -2835,7 +2835,7 @@ button.tm-videobutton:hover span {
 }
 
 .bg-white .tm-accordion .card-header button:not(.collapsed) {
-  background: #3464e0;
+  background: #304945;
 }
 
 /**
@@ -2934,16 +2934,16 @@ button.tm-videobutton:hover span {
 }
 
 .nice-select .list .option:hover {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
 }
 
 .nice-select:focus {
-  border-color: #3464e0;
+  border-color: #304945;
 }
 
 .nice-select.open {
-  border-color: #3464e0;
+  border-color: #304945;
 }
 
 .nice-select.open:after {
@@ -2999,12 +2999,12 @@ button.tm-videobutton:hover span {
 }
 
 .tm-pagination ul li a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-pagination ul li.is-active a {
-  color: #3464e0;
-  border-bottom: 1px solid #3464e0;
+  color: #304945;
+  border-bottom: 1px solid #304945;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3042,11 +3042,11 @@ button.tm-videobutton:hover span {
 }
 
 .tm-tabgroup li a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-tabgroup li a.active {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
 }
 
@@ -3090,7 +3090,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-tabgroup2 li a.active {
-  color: #3464e0;
+  color: #304945;
 }
 
 @media only screen and (max-width: 575px) {
@@ -3131,7 +3131,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-header-topside {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
   padding: 10px 0;
 }
@@ -3247,11 +3247,11 @@ button.tm-videobutton:hover span {
 }
 
 .tm-header-nav ul li a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-header-nav ul li.current a {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-header-nav .tm-header-nav-dropdown > a::after {
@@ -3273,7 +3273,7 @@ button.tm-videobutton:hover span {
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
   visibility: hidden;
-  border-top: 4px solid #3464e0;
+  border-top: 4px solid #304945;
   opacity: 0;
   -webkit-transform: scaleY(0);
   -ms-transform: scaleY(0);
@@ -3329,7 +3329,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-header-nav .tm-header-nav-dropdown ul li:hover > a {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-header-nav .tm-header-nav-dropdown ul li:hover > ul {
@@ -3392,7 +3392,7 @@ button.tm-videobutton:hover span {
 
 .tm-header-icons li a:hover,
 .tm-header-icons li button:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3495,7 +3495,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-searchform-close:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-searchform form {
@@ -3650,7 +3650,7 @@ button.tm-videobutton:hover span {
 
 .tm-mobilenav .mean-nav {
   margin-top: 0;
-  background: #3464e0;
+  background: #304945;
   position: absolute;
   left: 0;
   top: 100%;
@@ -3671,7 +3671,7 @@ button.tm-videobutton:hover span {
 
 .tm-mobilenav .mean-nav > ul li a:hover {
   background: #ffffff;
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-mobilenav .mean-nav > ul li a.mean-expand {
@@ -3945,8 +3945,8 @@ button.tm-videobutton:hover span {
 }
 
 .tm-service:hover .tm-service-content .tm-button {
-  background: #3464e0;
-  border-color: #3464e0;
+  background: #304945;
+  border-color: #304945;
   color: #ffffff;
 }
 
@@ -4017,7 +4017,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-funfact-heading span {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-funfact-icon {
@@ -4194,7 +4194,7 @@ button.tm-videobutton:hover span {
   display: inline-block;
   height: 50px;
   width: 50px;
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
   -webkit-border-radius: 100px;
   border-radius: 100px;
@@ -4443,7 +4443,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-product-bottom h6 a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-product-bottom .tm-ratingbox {
@@ -4504,8 +4504,8 @@ button.tm-videobutton:hover span {
 /* Similliar Products */
 .tm-similliar-products-slider .tm-slider-arrows-prev,
 .tm-similliar-products-slider .tm-slider-arrows-next {
-  background: #3464e0;
-  border-color: #3464e0;
+  background: #304945;
+  border-color: #304945;
   color: #ffffff;
 }
 
@@ -5004,7 +5004,7 @@ button.tm-videobutton:hover span {
 
 .tm-pricebox.is-active .tm-button,
 .tm-pricebox:hover .tm-button {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
 }
 
@@ -5015,7 +5015,7 @@ button.tm-videobutton:hover span {
 
 .tm-pricebox.is-active .tm-pricebox-price h2,
 .tm-pricebox:hover .tm-pricebox-price h2 {
-  color: #3464e0;
+  color: #304945;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -5169,7 +5169,7 @@ button.tm-videobutton:hover span {
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
-  color: #3464e0;
+  color: #304945;
   background: #ffffff;
   border: 1px solid #ffffff;
   -webkit-transition: all 0.4s ease-in-out;
@@ -5345,7 +5345,7 @@ button.tm-videobutton:hover span {
   font-size: 24px;
   line-height: 50px;
   background: #ffffff;
-  color: #3464e0;
+  color: #304945;
   text-align: center;
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
@@ -5361,14 +5361,14 @@ button.tm-videobutton:hover span {
 }
 
 .tm-blog-topside a:hover {
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
 }
 
 .tm-blog-imageslider .tm-slider-arrows-prev,
 .tm-blog-imageslider .tm-slider-arrows-next {
-  background: #3464e0;
-  border-color: #3464e0;
+  background: #304945;
+  border-color: #304945;
   color: #ffffff;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -5388,7 +5388,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-blog-bottomside h6 a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-blog-bottomside blockquote {
@@ -5429,7 +5429,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-blog-tags span a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-blog:hover .tm-blog-topside::before {
@@ -5556,8 +5556,8 @@ button.tm-videobutton:hover span {
 
 .blogitem-tags ul li a:hover,
 .blogitem-share ul li a:hover {
-  background: #3464e0;
-  border-color: #3464e0;
+  background: #304945;
+  border-color: #304945;
   color: #ffffff;
 }
 
@@ -5674,7 +5674,7 @@ button.tm-videobutton:hover span {
   width: 20px;
   -webkit-border-radius: 100px;
   border-radius: 100px;
-  background: #3464e0;
+  background: #304945;
 }
 
 .tm-contact-top {
@@ -5710,7 +5710,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-contact-block-content a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-contact-block-content p {
@@ -5728,8 +5728,8 @@ button.tm-videobutton:hover span {
 }
 
 .tm-contact-block:hover .tm-contact-block-content .tm-button {
-  background: #3464e0;
-  border-color: #3464e0;
+  background: #304945;
+  border-color: #304945;
   color: #ffffff;
 }
 
@@ -5832,7 +5832,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-breadcrumb ul li a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5872,7 +5872,7 @@ button.tm-videobutton:hover span {
   top: 100%;
   height: 1px;
   width: 65px;
-  background: #3464e0;
+  background: #304945;
 }
 
 .single-widget ul {
@@ -5913,8 +5913,8 @@ button.tm-videobutton:hover span {
   text-align: center;
   padding: 0;
   color: #ffffff;
-  background: #3464e0;
-  border-color: #3464e0;
+  background: #304945;
+  border-color: #304945;
 }
 
 .widget-search-form button i,
@@ -5925,8 +5925,8 @@ button.tm-videobutton:hover span {
 
 .widget-search-form button:hover,
 .widget-search-form input[type="submit"]:hover {
-  background: #3464e0;
-  border-color: #3464e0;
+  background: #304945;
+  border-color: #304945;
   color: #ffffff;
 }
 
@@ -5979,7 +5979,7 @@ button.tm-videobutton:hover span {
 }
 
 .widget-categories ul li a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 /* Widget Recentpost */
@@ -6074,7 +6074,7 @@ button.tm-videobutton:hover span {
 }
 
 .widget-recentpost-content h6 a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .widget-recentpost-content span {
@@ -6117,7 +6117,7 @@ button.tm-videobutton:hover span {
 }
 
 .widget-archives ul li a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 /* Widget Tags */
@@ -6144,8 +6144,8 @@ button.tm-videobutton:hover span {
 }
 
 .widget-tags ul li a:hover {
-  background: #3464e0;
-  border-color: #3464e0;
+  background: #304945;
+  border-color: #304945;
   color: #ffffff;
 }
 
@@ -6191,8 +6191,8 @@ button.tm-videobutton:hover span {
 }
 
 .widget-info ul li a:hover {
-  background: #3464e0;
-  border-color: #3464e0;
+  background: #304945;
+  border-color: #304945;
   color: #ffffff;
 }
 
@@ -6237,7 +6237,7 @@ button.tm-videobutton:hover span {
 }
 
 .widget-quicklinks ul li a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 /* Widget Recentpost 2 */
@@ -6257,7 +6257,7 @@ button.tm-videobutton:hover span {
 }
 
 .widget-recentpost-2 ul li h6 a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .widget-recentpost-2 ul li span {
@@ -6330,8 +6330,8 @@ button.tm-videobutton:hover span {
   height: 35px;
   line-height: 35px;
   padding: 0 30px;
-  background: #3464e0;
-  border: 1px solid #3464e0;
+  background: #304945;
+  border: 1px solid #304945;
   color: #ffffff;
 }
 
@@ -6356,7 +6356,7 @@ button.tm-videobutton:hover span {
 .widget-pricefilter .tm-rangeslider-leftgrip,
 .widget-pricefilter .tm-rangeslider-rightgrip {
   height: 15px;
-  background: #3464e0;
+  background: #304945;
   width: 10px;
   display: inline-block;
   position: absolute;
@@ -6456,7 +6456,7 @@ button.tm-videobutton:hover span {
 }
 
 .widget-popularproduct-content h6 a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .widget-popularproduct-content span {
@@ -6567,7 +6567,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-comment-content h6 a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-comment-content p {
@@ -6591,7 +6591,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-comment-replybutton:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-comment-replypost {
@@ -6742,7 +6742,7 @@ button.tm-videobutton:hover span {
 }
 
 .widgets-footer .widget-info ul li a:hover {
-  border-color: #3464e0;
+  border-color: #304945;
 }
 
 .widgets-footer .widget-quicklinks ul li a {
@@ -6855,8 +6855,8 @@ button.tm-videobutton:hover span {
 
 .tm-prodetails-thumbnails .tm-slider-arrows-prev,
 .tm-prodetails-thumbnails .tm-slider-arrows-next {
-  background: #3464e0;
-  border-color: #3464e0;
+  background: #304945;
+  border-color: #304945;
   color: #ffffff;
 }
 
@@ -6882,7 +6882,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-prodetails-thumbnail.slick-current {
-  border-color: #3464e0;
+  border-color: #304945;
 }
 
 .tm-prodetails-title {
@@ -6895,7 +6895,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-prodetails-title a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-prodetails-availability {
@@ -6903,7 +6903,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-prodetails-availability span {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-prodetails-price {
@@ -6983,7 +6983,7 @@ button.tm-videobutton:hover span {
 .tm-prodetails-categories ul li a:hover,
 .tm-prodetails-tags ul li a:hover,
 .tm-prodetails-share ul li a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-prodetails-color ul {
@@ -7010,7 +7010,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-prodetails-color ul li.is-checked span {
-  border-color: #3464e0;
+  border-color: #304945;
 }
 
 .tm-prodetails-color ul li.red span {
@@ -7225,7 +7225,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-cart-table .tm-cart-productname:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-cart-table .tm-cart-totalprice {
@@ -7238,7 +7238,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-cart-table .tm-cart-removeproduct:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-cart-table .tm-cart-removeproduct:focus {
@@ -7334,11 +7334,11 @@ button.tm-videobutton:hover span {
 }
 
 .tm-myaccount-dashboard p a {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-myaccount-dashboard p a:hover {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-myaccount-orders table {
@@ -7401,7 +7401,7 @@ button.tm-videobutton:hover span {
 .tm-myaccount-address-shipping a.edit-button {
   float: right;
   padding: 0 8px;
-  background: #3464e0;
+  background: #304945;
   color: #ffffff;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -7450,13 +7450,13 @@ button.tm-videobutton:hover span {
   font-size: 14px;
   color: #3c424f;
   border: 5px solid transparent;
-  border-left: 5px solid #3464e0;
+  border-left: 5px solid #304945;
   -webkit-box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.1);
 }
 
 .tm-checkout-coupon > a span {
-  color: #3464e0;
+  color: #304945;
   font-weight: 600;
 }
 
@@ -7553,7 +7553,7 @@ button.tm-videobutton:hover span {
 }
 
 .tm-checkout-total td + td {
-  color: #3464e0;
+  color: #304945;
 }
 
 .tm-checkout-payment {
