@@ -1,0 +1,7 @@
+@import url(./_content/hero__container_content.css);
+@import utl(./_empty/hero__container_empty.css);
+
+.hero__container {
+  width: 80%;
+  margin: auto;
+}
