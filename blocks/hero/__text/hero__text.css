@@ -1,0 +1,9 @@
+.hero__text {
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 150px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: var(--color-tertiary);
+}
