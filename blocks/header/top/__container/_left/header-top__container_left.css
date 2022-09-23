@@ -3,4 +3,6 @@
 .header-top__container_left {
   display: flex;
   align-items: left;
+  list-style: none;
+  gap: 22px;
 }
