@@ -3,6 +3,7 @@
 @import url(./__icon/features__icon.css);
 @import url(./__title/features__title.css);
 @import url(./__paragraph/features__paragraph.css);
+@import url(./__content/features__content.css);
 
 .features {
   padding: 50px 0;
