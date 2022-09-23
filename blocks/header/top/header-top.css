@@ -1,4 +1,6 @@
-.header_top {
+@import url(./__container/header-top__container.css);
+
+.header-top {
   background-color: var(--color-primary);
   color: white;
   padding: 10px 0;

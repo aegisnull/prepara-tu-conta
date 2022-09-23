@@ -1,0 +1,7 @@
+@import url(./_left/header-top__container_left.css);
+
+.header-top__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}

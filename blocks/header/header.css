@@ -1,5 +1,5 @@
-@import url(./_top/header_top.css);
-@import url(./_bottom/header_bottom.css);
+@import url(./top/header-top.css);
+@import url(./bottom/header-bottom.css);
 
 .header {
   width: 100%;
