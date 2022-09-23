@@ -1,6 +1,7 @@
 .header-top__container_left {
+  padding: 0;
   display: flex;
-  align-items: left;
+  justify-content: flex-start;
   list-style: none;
   gap: 22px;
 }
