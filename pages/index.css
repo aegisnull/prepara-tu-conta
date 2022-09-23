@@ -12,3 +12,6 @@
 
 /* Hero */
 @import url(../blocks/hero/hero.css);
+
+/* Features */
+@import url(../blocks/features/features.css);
