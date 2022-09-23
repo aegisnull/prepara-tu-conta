@@ -1,2 +1,6 @@
 @import url(./_top/header_top.css);
 @import url(./_bottom/header_bottom.css);
+
+.header {
+  width: 100%;
+}
