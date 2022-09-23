@@ -1,0 +1,23 @@
+.clock-img {
+  background: url(../../../assets/images/icons/clock.svg) no-repeat;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.mail-img {
+  background: url(../../../assets/images/icons/mail.svg) no-repeat;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.schedule-img {
+  background: url(../../../assets/images/icons/schedule.svg) no-repeat;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 5px;
+}
