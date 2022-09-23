@@ -1,0 +1,13 @@
+.button {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  background: var(--color-primary);
+  height: 50px;
+  line-height: 48px;
+  padding: 0 40px;
+  color: white;
+  border-radius: 3px;
+  width: 100px;
+}
